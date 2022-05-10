@@ -1,9 +1,170 @@
+<!DOCTYPE html>
 <html>
- 
-<body>
-  <h1>Test Site</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+  <head>
+    <title>HTML Cheatsheet</title>
+    <link href="./styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <table>
+      
+      <header><h1 id="top">HTML Cheatsheet</h1></header>
+      <thead>
+        <tr>
+          <td>Element</td>
+          <td>Function</td>
+          <td>Syntax</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <tr>
+            <td><a href=#ul>Unordered List</a></td>
+            <td>Creates a bulletpoint list</td>
+            <td class="stand">< ul ><br>... <br>< /ul></td>
+          </tr>
+          <tr>
+            <td><a href=#ol>Ordered List</a></td>
+            <td>Creates a numbered list</td>
+            <td class="stand">< ol ><br>...<br>< /ol></td>
+          </tr>
+          <td><a href=#list>List</a></td>
+          <td>Creates list items within an ordered or unordered list</td>
+          <td class="stand">...< li >list item< /li>... </td>
+        </tr>
+        <tr>
+          <td><a href=#vid>Video</a></td>
+          <td>Inserts a video to the webpage and a comment if video fails</td>
+          <td class="stand">< video src= "url" > Video not supported < /video></td>
+        </tr>
+        <tr>
+          <td><a href=#img>Image</a></td>
+          <td>Inserts an image to the webpage, from a source</td>
+          <td class="stand">< img src= "url" > OR < img src = "filepath" ></td>
+        </tr>
+        <tr>
+          <td><a href=#alt>Alt Attribute</a></td>
+          <td>Offers description if image cannot be displayed</td>
+          <td class="stand">< img src= "" alt= "image description" ></td>
+        </tr>
+        <tr>
+          <td><a href=#anc>Anchor Element</a></td>
+          <td>Creates hyperlink to section of the page, or to a completely different website.<br> Can be wrapped around element to make it a hyperlink.</td>
+          <td class="stand">< a href= "url" >element to wrap< /a></td>
+          </tr>
+        <tr>
+          <td><a href=#break>Line Break</a></td>
+          <td>Creates a break, puts following text on the next line.</td>
+          <td class="stand">"Text on first line" < br ><br> "text on next line"</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Examples</h2>
+    <table>
+      <thead>
+        <tr>
+          <td id= "ul">Unordered List</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <ul>
+              <li id="list">Unordered</li>
+              <li>List</li>
+              <li>Here</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <td id= "ol">Ordered List</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <ol>
+              <li>Ordered</li>
+              <li>List</li>
+              <li>Here</li>
+            </ol>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <td id= "vid">Video</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <video src="https://www.youtube.com/watch?v=K5O3UgLG2Jw">Video not Supported</video>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <td id= "img">Image</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <td id= "alt">Alt</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portait_ca_usa.jpg" alt="image of a magestic gull against a blue sky">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <td id= "anc">Anchor Element</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <a class="eg" href= #top>To top of page</a><br>
+            <br><a class="eg" href= "https://www.codecademy.com/" target=" _blank">Codecademy Homepage</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <td id= "break">Line Break</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <p>This sentence has been<br> broken<br> using<br> line<br> breaks.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
